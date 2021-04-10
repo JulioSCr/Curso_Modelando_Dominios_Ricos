@@ -10,8 +10,8 @@ namespace PaymentContext.Domain.ValueObjects
             FirsName = firsName;
             LastName = lastName;
 
-            if (firsName.Length == 0)
-                throw new Exception("Nome inválido");
+            if (string.IsNullOrEmpty(firsName))
+                AddNotification("firsName", "Nome inválido");
         }
 
         public string FirsName { get; private set; }
