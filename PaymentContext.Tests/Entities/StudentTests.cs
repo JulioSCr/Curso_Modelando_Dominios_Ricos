@@ -4,7 +4,7 @@ using PaymentContext.Domain.Entities;
 using PaymentContext.Domain.Enums;
 using PaymentContext.Domain.ValueObjects;
 
-namespace paymentcontext.tests
+namespace Paymentcontext.Tests
 {
     [TestClass]
     public class StudentTests
