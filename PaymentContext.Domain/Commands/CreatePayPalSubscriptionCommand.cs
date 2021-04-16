@@ -2,6 +2,7 @@ using System;
 using PaymentContext.Domain.Enums;
 using PaymentContext.Domain.ValueObjects;
 
+/// command é como se fosse o insert
 namespace PaymentContext.Domain.Commands {
     public class CreatePayPalSubscriptionCommand
     {
